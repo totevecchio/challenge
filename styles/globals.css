@@ -1,0 +1,113 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navBox { 
+  width: 100%;
+}
+
+nav { 
+  display: flex;
+  background-color: black;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 2rem;
+  color:aliceblue;
+  
+}
+
+button { 
+  width: 7rem;
+  height: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #fff6f5;
+}
+
+button a { 
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.login { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.bandsBox { 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.bandsBox:hover { 
+  background-color: #fff6f5;
+}
+
+form { 
+  display: flex;
+  justify-content: center;
+}
+input { 
+  border-radius: 5px;
+  width: 30%;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.bandCont { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color:#fff6f5;
+}
+
+.bandBox { 
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  border-radius: 10px;
+  padding: 5rem;
+  background-color: #fff;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media all and (max-width: 420px) {
+  nav { 
+  height: 4rem;
+  padding-right: 0.5rem;
+  color:aliceblue;
+  }
+  button { 
+    width: 5rem;
+  height: 2rem;
+  }
+
+}
