@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hi, here are the instructions so as to run the repository.
+1-Download or clone the repository.
+2-Cd into folder challenge-main. 
+3-Install next.js and Auth0 by using the following commands:
+-Npm install
+-Npm install @auth0/nextjs-auth0 
+4-Create an env file called ".env.local" and save it with the following information:
+"
+AUTH0_SECRET='faafa184508b14c45f32608d010b5fd805025e30df1d891c3791a16966a7284b'
 
-## Getting Started
+AUTH0_BASE_URL='http://localhost:3000'
 
-First, run the development server:
+AUTH0_ISSUER_BASE_URL='https://dev-jnhwl925.us.auth0.com'
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+AUTH0_CLIENT_ID='huFkZXompL7sfYkig1Wvj2smoZQZpJ4Z'
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+AUTH0_CLIENT_SECRET='TR0s8aYRXVYEErCUJ8kCa_-6E_HZaPf1EIdBwhmd2k2Q0tyUmK3zid1U4B5TOaiw'
+"
+5-Run the following command to start the app:
+-Npm run dev 
+6-You should be running on localhost: 3000/ port. The authorization won't work if you are not on this port.
+7-Last, use this email and password for the Authorization user:
+User: "challange@gmail.com"
+pass: "Improve-in challenge"
